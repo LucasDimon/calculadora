@@ -1,8 +1,8 @@
 function calculadora(num1, num2, operacao) {
 
   if (operacao === "+") {
-    // ERRO 1: soma adiciona +4 no resultado
-    return num1 + num2 + 4;
+    // ERRO 1: corrigido
+    return num1 + num2;
   }
 
   else if (operacao === "-") {
