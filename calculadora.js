@@ -1,8 +1,8 @@
 function calculadora(num1, num2, operacao) {
 
   if (operacao === "+") {
-    // ERRO 1: soma adiciona +4 no resultado
-    return num1 + num2 + 4;
+    // ERRO 1: soma adiciona +4 no resultado : corrigido
+    return num1 + num2;
   }
 
   else if (operacao === "-") {
@@ -10,8 +10,8 @@ function calculadora(num1, num2, operacao) {
   }
 
   else if (operacao === "*") {
-    // ERRO 2: multiplicação soma +2 no resultado
-    return (num1 * num2) + 2;
+    // ERRO 2: multiplicação soma +2 no resultado : corrigido
+    return (num1 * num2);
   }
 
   else if (operacao === "/") {
